@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "cover-letter-generator"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+gradio = "^4.44.1"
+langchain = "^0.3.2"
+langchain-community = "^0.3.1"
+langchain-core = "^0.3.9"
+langchain-google-vertexai = "^2.0.3"
+html2text = "^2024.2.26"
+pdfreader = "^0.1.15"
+pypdf2 = "^3.0.1"
+bs4 = "^0.0.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
